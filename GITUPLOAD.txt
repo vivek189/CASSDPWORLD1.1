@@ -1,0 +1,47 @@
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~
+$ cd JARTGATE/
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((c241cc1...))
+$ git branch -a
+* (HEAD detached from e8f27e0)
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/OMNITEC
+  remotes/origin/develop
+  remotes/origin/feature/version-1
+  remotes/origin/master
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((c241cc1...))
+$ git status
+HEAD detached from e8f27e0
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    CASSDPWORLDAPI
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CASSDPWORLDAPI.rar
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((c241cc1...))
+$ git add .
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((c241cc1...))
+$ git commit -m "LATEST UPDATE1"
+[detached HEAD f7c6062] LATEST UPDATE1
+ 2 files changed, 1 deletion(-)
+ delete mode 160000 CASSDPWORLDAPI
+ create mode 100644 CASSDPWORLDAPI.rar
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((f7c6062...))
+$ git push origin remotes/origin/OMNITEC
+warning: ┌──────────────── SECURITY WARNING ───────────────┐
+warning: │ TLS certificate verification has been disabled! │
+warning: └─────────────────────────────────────────────────┘
+warning: HTTPS connections may not be secure. See https://aka.ms/gcmcore-tlsverify for more information.
+Everything up-to-date
+
+Vivek.Ranjan@CTXVDIDC030 MINGW64 ~/JARTGATE ((f7c6062...))
+$
